@@ -1,9 +1,11 @@
 import "./App.css"
+import LazyLoadImage from "./components/LazyLoadImage";
 
 function App() {
   return (
     <div className="container">
-      <h1>Checkout the branches for the features</h1>
+      <h1>Lazy Loading on Scroll</h1>
+      <LazyLoadImage />
     </div>
   );
 }

@@ -1,13 +1,11 @@
 .container {
-  background: #1e1e1e;
   min-height: 100vh;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: min(90%, 800px);
+  margin-inline: auto;
 }
 
 .container h1 {
   font-size: 2.5rem;
-  color: #e1e1e1;
+  text-align: center;
 }
